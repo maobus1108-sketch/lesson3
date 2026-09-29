@@ -23,6 +23,11 @@
             width: 100%;
             max-width: 600px;
             text-align: center;
+            min-height: 520px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
         }
         .header-info {
             display: flex;
@@ -47,12 +52,12 @@
             font-size: 24px;
             font-weight: bold;
             color: #2c3e50;
-            margin: 15px 0 25px 0;
+            margin: 15px 0 15px 0;
             background-color: #f8f9fa;
             padding: 20px;
             border-radius: 12px;
             border-left: 6px solid #3498db;
-            min-height: 80px;
+            min-height: 100px;
             display: flex;
             align-items: center;
             justify-content: center;
